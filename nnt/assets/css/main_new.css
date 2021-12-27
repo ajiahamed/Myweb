@@ -2536,11 +2536,11 @@ input, select, textarea {
 			}
 
 				.wrapper.style1 .icon.major:before {
-					color: #5e42a6;
+					color: #000000;/*5e42a6*/
 				}
 
 				.wrapper.style1-alt .icon.major:before {
-					color: #493382;
+					color: #000000;/*493382*/
 				}
 
 				.wrapper.style2 .icon.major:before {
@@ -3237,34 +3237,37 @@ input, select, textarea {
 
 		.wrapper.alt {
 			/*background-color: #261c3e;*/
-			background: linear-gradient(to bottom, #006699 0%, #009999 100%);
+			background-color: #261c3e;
 		}
 
 		.wrapper.style1 {
-			/*background-color: #000000; /* get in touch*/
-			background: linear-gradient(to bottom, #000000 0%, #009999 100%);
+            background-image: linear-gradient(90deg, #020024 0%, #00968f 65%, #00d4ff 100%);
+			/*background-color: #090979;*/
 		}
 
 		.wrapper.style1-alt {
-			background-color: #006699;/*Footer*/
+			background-color: #0089B9;
+			/*background-image: #linear-gradient(0deg, turquoise, black);
+			background-color: #493382;*/
 		}
 
 		.wrapper.style2 {
-			/*background-color: #000000;/* who we are*/
-			background: linear-gradient(to bottom, #006699 0%, #009999 100%);
+			background-color: #00778E;
+			/*background-image: #linear-gradient(0deg, turquoise, black);
+			background-color: #5052b5;*/
 		}
 
 		.wrapper.style2-alt {
-			background-color: #3e4094;
+			background-color: #;
 		}
 
 		.wrapper.style3 {
-			/*background-color: #b74e91;*/
-			background: linear-gradient(to bottom, #006699 0%, #009999 100%);
+			background-color: #;
+			background-image: linear-gradient(90deg, darkturquoise, midnightblue);
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+			background-color: #;
 		}
 
 		.wrapper.fullscreen {
@@ -3528,8 +3531,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: linear-gradient(180deg, #006699 0%, #009999 100%);
-		/*background: #312450;*/	
+		background: #0e4f70;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3879,8 +3881,8 @@ input, select, textarea {
 
 	#intro {
 		background-attachment: fixed;
-		background-color: linear-gradient(to bottom, #006699 0%, #000000 100%);
 		background-image: url("images/intro.svg");
+		background-color: #00413E;
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
