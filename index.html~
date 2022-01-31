@@ -18,9 +18,9 @@
 		<!-- Sidebar -->
 			<section id="sidebar">
 				<div class="inner">
-					<!-- <marquee behavior="" direction="">
+					<marquee behavior="" direction="">
                     <img src="images/2022.png" width="82" height="80" alt="Welcome 2022">
-                    </marquee> -->
+                    </marquee>
 					<nav>
 						<ul>
 							<li><a href="#intro">Welcome</a></li>
