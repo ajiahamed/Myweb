@@ -70,6 +70,17 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* Logo */
+
+.logo {
+  display: flex; /* Use flexbox to align items horizontally */
+  align-items: center; /* Center items vertically */
+}
+
+.logo img {
+  margin-right: 10px; /* Space between logo and text */
+}
+
 /* Basic */
 
 	@-ms-viewport {
