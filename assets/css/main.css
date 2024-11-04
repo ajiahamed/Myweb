@@ -3252,7 +3252,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-            background-image: linear-gradient(180deg, #020024 0%, #00968f 65%, #00d4ff 100%);
+            /* background-image: linear-gradient(180deg, #020024 0%, #00968f 65%, #00d4ff 100%); */
 			/*background-color: #090979; get in touch*/
 		}
 
@@ -3273,8 +3273,8 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			/*background-color: #; get in touch*/
-			background-image: linear-gradient(90deg, darkturquoise 5%, midnightblue 65%);
+			background-color: #161648;
+			/* background-image: linear-gradient(90deg, black 5%, #161648 65%); */
 		}
 
 		.wrapper.style3-alt {
